@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merienda:wght@300..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik+Wet+Paint&family=Sixtyfour+Convergence:BLED,SCAN,XELA,YELA@0..100,-53..100,-100..100,-100..100&family=Tiny5&display=swap');
+body{
+    background-image: url(/photos/news-1.jpg);
+    background-size: cover;
+    
+}    
+
+
+#div1{
+    font-size: xx-large;
+    text-align: center;
+    font-family:'Playwrite GB S';
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.center {
+    /* text-align: center; */
+    border:5px solid black;
+    /* height: 630px; */
+    width:500px;
+    border: 1px solid #581818;
+    background-color: aliceblue;
+    background-position: 50rem;
+    margin: auto;
+    padding: 30px;
+    box-shadow:2px 3px 25px rgba(221, 3, 3, 0.705);
+    border-radius: 20px;   
+    backdrop-filter: blur(10px);
+  }
+
+#email{
+    border: 1px solid rgb(68, 66, 71);
+    border-radius: 5px;
+    font-family: "Merienda" ;
+  }
+  
+.radios{
+   font-size:0.5cm;
+   font-family: "Merienda" ;
+}
+  
+  #comment{
+    font-size:x-large;
+    width:500px;
+    height: 100px;
+    border: 1px solid rgb(68, 66, 71);
+    border-radius: 10px;
+    color:rgb(63, 62, 62);
+    font-family: "Merienda" ;
+    
+  }
+ #comment:hover{
+    background-color: rgb(219, 219, 219);
+    transition-duration: 0.2s;
+ }
+
+ #done{
+    font-size: x-large;
+    border: 2px solid rgb(43, 37, 51);
+    font-family: "Merienda" ;
+    
+
+ }
+ #done:hover{
+    background-color:rgb(51, 48, 47);
+    color:rgb(255, 255, 255) ;
+    transition-duration: 0.5s;
+ }
+

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merienda:wght@300..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik+Wet+Paint&family=Sixtyfour+Convergence:BLED,SCAN,XELA,YELA@0..100,-53..100,-100..100,-100..100&family=Tiny5&display=swap');
+body{
+    background-image: url(/photos/news-1.jpg);
+    background-size: cover;
+    backdrop-filter:blur(4px);
+    
+}
+/* .container{
+    background-color: rgb(59, 59, 58);
+} */
+.Website{
+    text-align: center;
+    text-transform: capitalize;
+    font-family:"Bebas Neue";
+    /* border:5px solid; */
+    font-size:2cm;
+   
+}
+
+.popup-container {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70vh;
+    
+}
+
+.popup {
+    width: 210px;
+    height: 160px;
+    margin: 20px;
+    background-color: rgba(150, 139, 139, 0.2);
+    border: 1px solid #581818;
+    backdrop-filter:blur(10px);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 150px;
+    text-decoration: none;
+    color: #1b1919;
+    transition: background-color 0.3s ease;
+    box-shadow:2px 3px 25px rgba(221, 3, 3, 0.705);
+    font-family: "Merienda";
+    font-size: x-large;
+
+}
+
+.popup:hover {
+    background-color: #251b1b;
+    color: white;
+}
+
+.popup:nth-child(odd) {
+    transform: translateX(px);
+    transform:translateY();
+
+}
+
+.popup:nth-child(even) {
+    transform: translateX();
+    transform:translateY(250px)
+}
+
+.popup1-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    height: 70vh;
+}
+
+.popup1{
+    width: 210px;
+    height: 160px;
+    margin: 20px;
+    background-color: rgba(150, 139, 139, 0.2);
+    border: 1px solid #581818;
+    backdrop-filter:blur(10px);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 150px;
+    text-decoration: none;
+    color: #1b1919;
+    transition: background-color 0.3s ease;
+    box-shadow:2px 3px 25px rgba(221, 3, 3, 0.705);
+    font-family: "Merienda";
+    font-size: x-large;
+}
+
+.popup1:hover {
+    background-color: #251b1b;
+    color: white;
+} 
+
+.popup1:nth-child(odd) {
+    transform: translateX();
+    transform:translateY(50px);
+
+}
+
+.popup1:nth-child(even) {
+    transform: translateX();
+    transform:translateY(50px)
+
+}
+
+.linkfeed{
+    text-align: center;
+    font-size: x-large;
+}
+
+
+.feed{
+    text-align: center;
+    font-size: x-large;
+    color: blue;
+}
+
+.feed:hover{
+    color: aqua;
+}
